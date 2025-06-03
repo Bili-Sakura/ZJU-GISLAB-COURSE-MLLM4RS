@@ -91,3 +91,8 @@ if __name__ == "__main__":
         output_file = f"{base_name}.pptx"
 
     pdf_to_pptx_enhanced(args.pdf_file, output_file, args.dpi)
+
+# usage (windows)
+# cd ZJU-GISLAB-COURSE-2025
+# conda activate env
+# pdf_to_pptx.bat
